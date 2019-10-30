@@ -1,6 +1,7 @@
 package main
 
 var functions = map[string][]string{
+	// TODO: figure out what to do with Propp's "less essential" functions
 	"β": {"One of the members of a family absents himself from home"},
 	"γ": {"An interdiction is addressed to the hero"},
 	"δ": {"The interdiction is violated"},
@@ -13,7 +14,8 @@ var functions = map[string][]string{
 	"θ": {"The victim submits to deception and thereby unwittingly helps his enemy"},
 	"A": {
 		"The villain causes harm or injury to a member of a family",
-		"One member of a family lacks something", "One member of a family desires to have something",
+		"One member of a family lacks something",
+		"One member of a family desires to have something",
 	},
 	"B": {
 		"Misfortune or lack is made known; the hero is approached with a request; he is allowed to go",

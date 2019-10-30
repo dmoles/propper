@@ -23,12 +23,20 @@ type propper struct {
 	r *rand.Rand
 }
 
-func (p *propper) Go() {
+func writeToStderr(format string, args ...interface{}) {
 	//noinspection GoUnhandledErrorResult
-	fmt.Fprintf(os.Stderr, "seed: %d\n", p.seed)
+	fmt.Fprintf(os.Stderr, format, args...)
+}
+
+//noinspection GoUnhandledErrorResult
+func (p *propper) Go() {
+	writeToStderr("seed: %d\n", p.seed)
+	writeToStderr("functions: ")
+	story := p.story()
+	writeToStderr("\n\n")
 
 	var previousLine string
-	for _, line := range p.story() {
+	for _, line := range story {
 		if line == previousLine {
 			// when a task follows a struggle we assume
 			// "A false hero presents unfounded claims"
@@ -97,6 +105,7 @@ func (p *propper) applyAllFunctions(fns ...string) (result []string) {
 }
 
 func (p *propper) applyAnyFunction(fn string) string {
+	writeToStderr(fn)
 	return p.choose(functions[fn])
 }
 
