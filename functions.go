@@ -1,0 +1,63 @@
+package main
+
+var functions = map[string][]string{
+	"β": {"One of the members of a family absents himself from home"},
+	"γ": {"An interdiction is addressed to the hero"},
+	"δ": {"The interdiction is violated"},
+	"ϵ": {"The villain makes an attempt at reconnaissance"},
+	"ζ": {"The villain receives information about his victim"},
+	"η": {
+		"The villain attempts to deceive his victim in order to choose possession of him",
+		"The villain attempts to deceive his victim in order to choose possession of his belongings",
+	},
+	"θ": {"The victim submits to deception and thereby unwittingly helps his enemy"},
+	"A": {
+		"The villain causes harm or injury to a member of a family",
+		"One member of a family lacks something", "One member of a family desires to have something",
+	},
+	"B": {
+		"Misfortune or lack is made known; the hero is approached with a request; he is allowed to go",
+		"Misfortune or lack is made known; the hero is approached with a command; he is allowed to go",
+		"Misfortune or lack is made known; the hero is approached with a request; he is dispatched",
+		"Misfortune or lack is made known; the hero is approached with a command; he is dispatched",
+	},
+	"C": {
+		"The seeker agrees to counteraction",
+		"The seeker decides upon counteraction",
+	},
+	"↑": {"The hero leaves home"},
+	"D": {
+		"The hero is tested, which prepares the way for receiving a magical agent",
+		"The hero is tested, which prepares the way for receiving a helper",
+		"The hero is interrogated, which prepares the way for receiving a magical agent",
+		"The hero is interrogated, which prepares the way for receiving a helper",
+		"The hero is attacked, which prepares the way for receiving a magical agent",
+		"The hero is attacked, which prepares the way for receiving a helper",
+	},
+	"E": {"The hero reacts to the actions of the future donor"},
+	"F": {"The hero acquires the use of a magical agent"},
+	"G": {
+		"The hero is transferred to the whereabouts of an object of search",
+		"The hero is delivered to the whereabouts of an object of search",
+		"The hero is led to the whereabouts of an object of search",
+	},
+	"H":  {"The hero and the villain join in direct combat"},
+	"J":  {"The hero is branded or marked"},
+	"I":  {"The villain is defeated"},
+	"K":  {"The initial misfortune or lack is liquidated"},
+	"↓":  {"The hero returns"},
+	"Pr": {"The hero is pursued"},
+	"Rs": {"Rescue of the hero from pursuit"},
+	"o": {
+		"The hero, unrecognized, arrives home",
+		"The hero, unrecognized, in another country",
+	},
+	"L":  {"A false hero presents unfounded claims"},
+	"M":  {"A difficult task is proposed to the hero"},
+	"N":  {"The task is resolved"},
+	"Q":  {"The hero is recognized"},
+	"Ex": {"The false hero or villain is exposed"},
+	"T":  {"The hero is given a new appearance"},
+	"U":  {"The villain is punished"},
+	"W":  {"The hero is married and ascends the throne"},
+}
