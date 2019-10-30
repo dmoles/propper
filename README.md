@@ -66,3 +66,9 @@ in the `functions:` output -- e.g. instead of **_A_**, **_a₁_**, and **_a₂_*
 
 - What is the significance of the em dash (**—**) in, e.g., **_ABC↑FH−IK↓LM−NQExUW_**?
 - Where and how should we interpolate Propp's "less essential" functions **_β_** — **_θ_**?
+
+## TO DO:
+
+- Expand each "function" to its concrete sub-types, e.g. from “The hero is pursued” to
+  “the pursuer flies after the hero”, “The puruser tries to gnaw through the tree in which the hero
+  is taking refuge”, etc.
